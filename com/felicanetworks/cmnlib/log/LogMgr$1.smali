@@ -39,7 +39,7 @@
 
     sget-object v1, Lcom/felicanetworks/cmnlib/log/LogMgr$CatExp;->ERR:Lcom/felicanetworks/cmnlib/log/LogMgr$CatExp;
 
-    nop
+    invoke-virtual {v1}, Lcom/felicanetworks/cmnlib/log/LogMgr$CatExp;->ordinal()I
 
     move-result v1
 
@@ -55,7 +55,7 @@
 
     sget-object v1, Lcom/felicanetworks/cmnlib/log/LogMgr$CatExp;->WAR:Lcom/felicanetworks/cmnlib/log/LogMgr$CatExp;
 
-    nop
+    invoke-virtual {v1}, Lcom/felicanetworks/cmnlib/log/LogMgr$CatExp;->ordinal()I
 
     move-result v1
 
